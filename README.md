@@ -56,8 +56,9 @@ README.mdとは<Font color="red">マークダウン記法</Font>で書かれた�
 
 <p>大学にいる間はプロキシの設定が必要かもしれないです．以下の情報を打ち込んでください．</p>
 
-<pre><code>$ git config --global http.proxy www-proxy.waseda.jp:8080
-$ git config --global https.proxy www-proxy.waseda.jp:8080
+<pre><code>
+$ git config --global http.proxy http://your-proxy.jp:8080
+$ git config --global https.proxy https://your-proxy.jp:8080
 </code></pre>
 
 <p>家で使う用に設定を戻す時は以下</p>
